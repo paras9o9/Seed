@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Apple seed",
+        "price": 1.99,
+        "image": { "fields": { "file": { "url": "https://picsum.photos/200/300" } } },
+        "category": "Fruit seed",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Iste magnam eaque ipsam!   Quidem iusto,assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,illum fugit."
+      }
+    },
+    {
+      "sys": { "id": "2" },
+      "fields": {
+        "title": "Mango seed",
+        "price": 4.99,
+        "image": { "fields": { "file": { "url": "https://picsum.photos/200/300" } } },
+        "category": "Fruit seed",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Iste magnam eaque ipsam!   Quidem iusto,assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,illum fugit."
+      }
+    },
+    {
+      "sys": { "id": "3" },
+      "fields": {
+        "title": "Pineapple seed",
+        "price": 2.99,
+        "image": { "fields": { "file": { "url": "https://picsum.photos/200/300" } } },
+        "category": "Fruit seed",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Iste magnam eaque ipsam!   Quidem iusto,assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,illum fugit."
+      }
+    },
+    {
+      "sys": { "id": "4" },
+      "fields": {
+        "title": "Tomato seed",
+        "price": 2.99,
+        "image": { "fields": { "file": { "url": "https://picsum.photos/200/300" } } },
+        "category": "Veg seed",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Iste magnam eaque ipsam!   Quidem iusto,assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,illum fugit."
+      }
+    },
+    {
+      "sys": { "id": "5" },
+      "fields": {
+        "title": "Potato seed",
+        "price": 2.99,
+        "image": { "fields": { "file": { "url": "https://picsum.photos/200/300" } } },
+        "category": "Veg seed",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Iste magnam eaque ipsam!   Quidem iusto,assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,illum fugit."
+      }
+    },
+    {
+      "sys": { "id": "6" },
+      "fields": {
+        "title": "Carrot seed",
+        "price": 2.99,
+        "image": { "fields": { "file": { "url": "https://picsum.photos/200/300" } } },
+        "category": "Veg seed",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Iste magnam eaque ipsam!   Quidem iusto,assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,illum fugit."
+      }
+    },
+    {
+      "sys": { "id": "7" },
+      "fields": {
+        "title": "Rose seed",
+        "price": 4.99,
+        "image": { "fields": { "file": { "url": "https://picsum.photos/200/300" } } },
+        "category": "Flower seed",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Iste magnam eaque ipsam!   Quidem iusto,assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,illum fugit."
+      }
+    },
+    {
+      "sys": { "id": "8" },
+      "fields": {
+        "title": "Lily seed",
+        "price": 3.99,
+        "image": { "fields": { "file": { "url": "https://picsum.photos/200/300" } } },
+        "category": "Flower seed",
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.Iste magnam eaque ipsam!   Quidem iusto,assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,illum fugit."
+      }
+    }
+  ]
+}
