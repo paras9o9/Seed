@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>seed</title>
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+    <!-- styles -->
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header id="home">
+        <!-- navbar -->
+        <nav id="nav">
+            <div class="nav-center">
+                <div class="nav-header">
+                    <span class="logo">🍃</span>
+                    <button class="nav-toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+                <div class="links-container">
+                    <ul class="links">
+                        <li>
+                            <a href="#home" class="scroll-link">home</a>
+                        </li>
+                        <li>
+                            <a href="#about" class="scroll-link">about</a>
+                        </li>
+                        <li>
+                            <a href="#feedback" class="scroll-link">feedbacks</a>
+                        </li>
+                        <li>
+                            <a href="#seeds" class="scroll-link">seeds</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="scroll-link">contacts</a>
+                        </li>
+                        <li>
+                            <!-- cart show btn -->
+                            <div class="cart-btn">
+                                <span class="nav-icon">
+                                    <i class="fas fa-cart-plus"></i>
+                                </span>
+                                <div class="cart-items">0</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+        </nav>
+        <!-- cart -->
+        <div class="cart-overlay">
+            <div class="cart">
+                <span class="close-cart">
+                    <i class="fas fa-window-close"></i>
+                </span>
+                <h2>your cart</h2>
+                <div class="cart-content">
+        
+                </div>
+                <div class="cart-footer">
+                    <h3>your total : $ <span class="cart-total">0</span>
+                        <button class="clear-cart banner-btn">clear cart</button>
+                    </h3>
+                </div>
+            </div>
+        </div>
+        <!-- banner -->
+        <div class="banner">
+            <div class="container">
+                <h1>seed</h1>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas eos
+                    neque sunt in? Id, necessitatibus quos quisquam distinctio
+                    laudantium fugiat?
+                </p>
+                <a href="#seeds" class="scroll-link btn btn-white">explore seeds</a>
+            </div>
+        </div>
+    </header>
+    <!-- about -->
+    <section id="about" class="section">
+        <div class="title">
+            <h2>about <span>seed</span></h2>
+        </div>
+        <span class="about-logo">🍃</span>
+        <div class="desc">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, magni pariatur at totam voluptas amet, et eligendi autem aliquam dolore temporibus harum ea maiores id facilis nisi eaque quae illum!
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cupiditate, impedit non ad ipsam quia aut tempora doloribus voluptatem temporibus accusamus esse, earum quod doloremque eos cum sequi quos voluptates.
+            </p>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, magni pariatur at totam voluptas amet, et
+            eligendi autem aliquam dolore temporibus harum ea maiores id facilis nisi eaququae illum!</p>
+
+        </div>
+    </section>
+    <!-- feedback -->
+    <section id="feedback" class="section">
+    <div class="section-center">
+        <div class="title">
+            <h2>seed
+                <span>feedback</span>
+            </h2>
+        </div>
+
+        <div class="card">
+            <div class="feedback-box">
+                <div class="img-container">
+                    <img src="person-1.jpeg" id="person-img" alt="" />
+                </div>
+                <h4 id="customer">sara jones</h4>
+                <p id="usedProduct">ux designer</p>
+                <p id="review">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+                    asperiores debitis incidunt, eius earum ipsam cupiditate libero?
+                    Iste, doloremque nihil?
+                </p>
+                <!-- prev next buttons-->
+                <div class="button-container">
+                    <button class="prev-btn">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="next-btn">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+      
+    </div>
+    </section>
+    <!-- services -->
+    <section id="seeds" class="section">
+        <div class="title">
+            <h2>seed
+                <span>products</span>
+            </h2>
+        </div>
+
+        <!-- <div class="filter-btn-container">
+            <button class="filter-btn" type="button" data-id="all">all</button>
+            <button class="filter-btn" type="button" data-id="fruit seed">fruit seed</button>
+            <button class="filter-btn" type="button" data-id="veg seed">veg seed</button>
+            <button class="filter-btn" type="button" data-id="flower seed">flower seed</button>
+        </div> -->
+
+        <div class="seeds-container">
+            <!-- <div class="seed">
+                <div class="product-img-container">
+                    <img src="https://picsum.photos/200/300" alt="apple seed" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <h3>Apple seed</h3>
+                <h4>$2.99</h4>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Iste magnam eaque ipsam! Quidem iusto,
+                    assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,
+                    illum fugit.
+                </p>
+            </div>
+
+            <div class="seed">
+                <div class="product-img-container">
+                    <img src="https://picsum.photos/200/300" alt="apple seed" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <div class="info">
+                <h3>Apple seed</h3>
+                <h4>$2.99</h4>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Iste magnam eaque ipsam! Quidem iusto,
+                    assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,
+                    illum fugit.
+                </p>
+                </div>
+            </div>
+
+            <div class="seed">
+                <div class="product-img-container">
+                    <img src="https://picsum.photos/200/300" alt="apple seed" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <div class="info">
+                <h3>Apple seed</h3>
+                <h4>$2.99</h4>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Iste magnam eaque ipsam! Quidem iusto,
+                    assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,
+                    illum fugit.
+                </p>
+                </div>
+            </div>
+
+            <div class="seed">
+                <div class="product-img-container">
+                    <img src="https://picsum.photos/200/300" alt="apple seed" class="product-img">
+                    <button class="bag-btn" data-id="1">
+                        <i class="fas fa-shopping-cart"></i>
+                        add to bag
+                    </button>
+                </div>
+                <div class="info">
+                <h3>Apple seed</h3>
+                <h4>$2.99</h4>
+                <p class="text">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Iste magnam eaque ipsam! Quidem iusto,
+                    assumenda unde ullam mollitia doloribus reprehenderit quasi quisquam ipsa veniam quod quas hic voluptas,
+                    illum fugit.
+                </p>
+                </div>
+            </div> -->
+        </div>
+        </section>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="section">
+        <div class="title">
+            <h2> seed <span>contact</span></h2>
+        </div>
+       
+        <div class="seed-contacts">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, architecto!</p>
+
+            <ul class="handles">
+                <li>
+                    <a href="#">Tweeter</a>
+                </li>
+                <li>
+                    <a href="#">Meta</a>
+                </li>
+                <li>
+                    <a href="#">Instagram</a>
+                </li>
+
+            </ul>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="section">
+        <p>
+            copyright &copy; seeds, plant company
+            <span id="date"></span>. all rights reserved
+        </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- javascript -->
+    <script src="app.js"></script>
+</body>
+
+</html>
